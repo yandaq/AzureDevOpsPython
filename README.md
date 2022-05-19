@@ -27,3 +27,12 @@ timeincolumn.py:
 ```sh
 $ python3 -W ignore timeincolumn.py
 ```
+
+Setup
+-----
+Before running the scripts, please edit each script and complete the following credentials:
+* Personal access token
+* Username
+* URL to your instance of Azure DevOps
+* queryFilter - the filter used to get your list of work items
+If you get an error when running the scripts, please double check your credentials and queryFilter carefully before raising an issue here.
